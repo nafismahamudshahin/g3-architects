@@ -188,3 +188,24 @@ section{
 .icon img{
     width: 40%;
 }
+/* -----------------------------------
+         Our Sponspors Styles
+---------------------------------------*/
+.our-spoonspors-section{
+    margin: 0px 10%;
+}
+.section-top{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.our-sponspors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    justify-items: center;
+    
+
+}
+.company img{
+    filter: grayscale(100%);
+}
