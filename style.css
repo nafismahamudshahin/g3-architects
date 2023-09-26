@@ -5,12 +5,16 @@ body{
     margin: 0;
     padding: 0;
 }
+img{
+    width: 100%;
+}
 /* header style start */
 header{
     display: flex;
-    margin: 0px 5%;
+    padding: 0px 10%;
     justify-content: space-between;
     align-items: center;
+    background: rgba(255, 144, 14, 0.10);
 
 }
 nav ul{
@@ -26,13 +30,17 @@ nav ul li a{
     font-weight: bold;
 }
 .logo strong{
-    font-size: 4vh;
+    font-size: 2.5em;
 }
 /* End header style */
 .slaiding{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgba(255, 144, 14, 0.10);
+}
+.slaiding-img{
+    padding: 0px 10%;
 }
 .half-width{
     display: flex;
@@ -42,15 +50,19 @@ nav ul li a{
     align-items: center;
     flex-direction: column;
 }
+.dispiction{
+    color: #727272;
+    font-size: 16px;
+}
 .head-title{
-    font-size: 8vh;
+    font-size: 5em;
 }
 .dispiction{
     font-size: 16px;
 }
 .btn{
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 8px;
     background-color: #FF900E;
     color: aliceblue;
@@ -59,6 +71,38 @@ nav ul li a{
     margin: 50px 0px;
 }
 section{
-    margin-top: 100px;
+    padding-top: 100px;
     margin-bottom: 100px;
+}
+/* ------------------------------------
+    Our-features styles
+---------------------------------------- */
+
+.Our-features{
+    display: flex;
+    column-gap: 50px;
+    padding: 0px 12%;
+}
+.features-imgs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.fratures-explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.sec-title{
+    font-size: 3em;
+}
+.color-1{
+    color: #727272;
+}
+.color-2{
+    color: #FF900E;
+}
+.button{
+    margin-top: 25px;
 }
