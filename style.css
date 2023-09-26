@@ -156,3 +156,35 @@ section{
 .years-of-experience p{
     font-size: 16px;
 }
+/* -----------------------------------------
+    facts styles
+----------------------------------------------*/
+.facts{
+    margin: 0px 10%;
+}
+.containers{
+    display: flex;
+    column-gap: 110px;
+    justify-content: center;
+}
+.section-head{
+    margin-bottom: 80px;
+}
+.project{
+    width: 20%;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 25px;
+}
+.total-of-numbar{
+    color: #424242;
+    font-size: 1.9em;
+}
+.item-name{
+    color: #727272;
+    font-size: 1.6em;
+}
+.icon img{
+    width: 40%;
+}
