@@ -209,3 +209,12 @@ section{
 .company img{
     filter: grayscale(100%);
 }
+/* ----------------------------
+        Footer styles
+-------------------------------- */
+footer{
+    background-color: #FFF4E7;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
